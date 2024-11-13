@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send("Hello, world!");
 });
 app.post('/', (req, res) => {
-    res.status(201);
+    res.status(200);
     res.send("Hello, I am a response to your post request");
 })
 app.listen(PORT, () => {
